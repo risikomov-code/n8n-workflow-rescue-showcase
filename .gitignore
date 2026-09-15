@@ -1,0 +1,17 @@
+# Never commit production material
+.env
+.env.*
+*.key
+*.pem
+*.secret
+credentials*
+secrets*
+production/
+private/
+exports/
+executions/
+logs/
+backups/
+*.json.bak
+*.sqlite
+*.db
